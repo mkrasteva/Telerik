@@ -1,0 +1,9 @@
+.clarification
+{
+       font-weight:bold;
+}
+button {
+    width: 71px;
+    height: 34px;
+    background: url(btnSubmit.jpg);
+}
