@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Last Name</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+</head>
+<body>
+    <form action="#" method="get">
+        <table>
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td colspan="3"><input type="text" id="lastName" value="" name = "LastName" required/></td>
+            </tr>
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td colspan="3"><input type="text" id="firstName" value="" name = "FirstName" required/></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td colspan="3"><textarea id="address" rows="4" cols="20" name = "Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" id="city" value="" name = "City"/></td>
+                <td><label for="state">State</label></td>
+                <td><input type="text" id="state" name = "State"/></td>
+            </tr>
+            <tr>
+                <td><label for="postCode">Zip/Postal Code</label></td>
+                <td colspan="3"><input type="number" id="postCode" value="" name = "ZipPostCode"/></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td colspan="3">
+                    <select id="country" name = "Country">
+						<option selected="selected" disabled hidden value=''>Please, select</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Serbia">Serbia</option>
+                    </select>
+                </td>
+            </tr>
+			<tr>
+                <td><label for="countryCode">Phone (country code, area code, number)</label></td>
+                <td colspan="3">(+<input type="number" id="countryCode" value="" name = "CountryCode"/>) <input type="number" id="areaCode" value=""  name = "AreaCode"/> - <input type="number" id="number" value=""  name = "Number"/></td>
+            </tr>
+			<tr>
+                <td><label for="email">E-mail</label></td>
+                <td colspan="3"><input type="email" id="email" value=""  name = "eMail" required/></td>
+            </tr>
+			<tr>
+                <td><label>Birth date</label></td>
+                <td colspan="3"><span id="birthDate">Month<input type="number" id="birthDateMonth" value="" min="1" max="12" name = "birthDateMonth"/> Day<input type="number" id="birthDateDay" value="" min="1" max="31" name = "birthDateDay"/> Year (4 digit)<input type="number" id="birthDateYear" value="" min="1900" max="2016"  name = "birthDateYear"/></span></td>
+            </tr>
+			<tr>
+                <td><label for="gender">Gender</label></td>
+                <td colspan="3">
+                    <select id="gender" name = "Gender">
+						<option selected="selected" disabled hidden value=''>Please, select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+			<tr>
+                <td><label>Starting date</label></td>
+                <td colspan="3">
+                    <span id="startingDate">
+						<input type="radio" name = "startingDate" id="Spring2006" value = "Spring2006"><label for = "Spring2006">Spring 2006</label>
+						<input type="radio" name = "startingDate" id="Summer2006" value = "Summer2006"><label for = "Summer2006">Summer 2006</label>
+					</span>
+                </td>
+            </tr>
+			<tr>
+                <td><label for="comments">Comments/Questions</label></td>
+                <td colspan="3"><textarea id="comments" rows="5" cols="20" name = "CommentsQuestions"></textarea></td>
+            </tr>
+			<tr>
+				<td id="buttonsRow" colspan = "4">
+					<button type = "submit" value = "Submit">Submit</button>
+					<button type = "reset" value = "Clear This Form">Clear This Form</button>
+				</td>
+			</tr>
+        </table>
+</form>
+</body>
+</html>
