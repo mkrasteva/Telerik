@@ -1,0 +1,40 @@
+table {
+    border: 1px outset black;
+}
+table tr td
+{
+    border: 1px outset #bbbbbb;
+    padding: 10px;
+}
+table {
+    border-spacing: 0px;
+}
+form label {
+    font-weight:bold;
+    width: 300px;
+}
+#state, #countryCode, #areaCode {
+    width: 3em;
+}
+#lastName, #firstName, #address, #email, #comments {
+    width: 100%;
+}
+td:first-child {
+    text-align: right;
+	width: 150px;
+}
+tr:last-child {
+	background-color: #D1EDE1;
+}
+#buttonsRow{
+	text-align: center;
+}
+#number {
+	width: 7em;
+}
+#birthDateMonth, #birthDateDay {
+	width: 3em;
+}
+#birthDateYear {
+	width: 4em;
+}
