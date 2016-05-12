@@ -1,0 +1,16 @@
+table th {
+	border: 1px ridge grey;
+	padding: 5px;
+}
+table {
+	border-spacing: 0;
+	border: 1px ridge grey;
+}
+table td {
+	border: 1px ridge grey;
+	padding: 5px;
+}
+.GradeSum {
+	font-weight: bold;
+	text-align: center;
+}
