@@ -1,0 +1,12 @@
+#freshFruits
+{
+        width: 430px;
+}
+#freshFruits th {
+    font-style:italic;
+    font-size: 30px;
+}
+#alphabet tr td {
+    text-align: center;
+    border: 1px inset;
+}
