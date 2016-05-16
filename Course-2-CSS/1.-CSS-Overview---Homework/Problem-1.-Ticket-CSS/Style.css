@@ -1,0 +1,45 @@
+body
+{
+    background-color: #595959;
+    font-size: 11px;
+    font-family: sans-serif
+}
+thead {
+    color: #c1bfbd;
+    font-size: 17px
+}
+thead th {
+    font-weight:normal;
+    padding: 10px 0
+}
+td {
+    padding: 10px 0
+}
+td:first-child {
+    color: #f5f3ec;
+    font-style: italic;
+    vertical-align: top
+}
+#supportStatus {
+    color: #f90100
+}
+td:last-child {
+    color: #e5ecad
+}
+#statusType {
+    color: #d56827
+}
+.actionType {
+    color: #c1bfbd
+}
+#hisName:before {
+   content: '';
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   background-color: #71b47a;
+   margin: 0 3px 0 3px
+}
