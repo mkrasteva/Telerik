@@ -1,0 +1,49 @@
+body
+{
+    background-color: #a9a9a9
+}
+header {
+    color: #fafad2;
+    text-align: center;
+    font-size: 22px
+}
+footer {
+    text-align: center;
+    font-size: 18px
+}
+nav li {
+    list-style: none
+}
+nav li:nth-child(2) a {
+    background-color: #d3d3d3
+}
+nav li a:hover {
+    text-decoration: underline
+}
+header a {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none
+}
+section header {
+    text-align: left
+}
+.additional {
+    display: none
+}
+.mainInfo:hover .additional {
+    display: inline
+}
+article:nth-child(2) {
+    display: none
+}
+p {
+    font-size: 18px
+}
+article footer a, article footer p {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left
+}
