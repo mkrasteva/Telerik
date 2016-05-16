@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px
+}
+table, td, th
+{
+        border-collapse:collapse;
+        padding: 6px
+}
+table, td {
+    border: 1px solid #c0bea4
+}
+tr:nth-child(2n) {
+    background-color: #ececd8
+}
+th {
+    background: #54b706; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5ec306, #47a803); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5ec306, #47a803); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5ec306, #47a803); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5ec306, #47a803); /* Standard syntax (must be last) */
+    color: white;
+    font-weight: normal;
+    text-align: left;
+    border: 1px solid #407f29
+}
