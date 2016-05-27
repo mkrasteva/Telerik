@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    background-color: #3B3B3B;
+    border-radius: 15px;
+    width: 99%;
+    margin: 0 auto;
+    min-width: 650px;
+    padding: 0 0 10px 0;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background: rgba(59,59,59,1);
+    background: -moz-linear-gradient(top, rgba(59,59,59,1) 0%, rgba(38,38,38,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,59,59,1)), color-stop(100%, rgba(38,38,38,1)));
+    background: -webkit-linear-gradient(top, rgba(59,59,59,1) 0%, rgba(38,38,38,1) 100%);
+    background: -o-linear-gradient(top, rgba(59,59,59,1) 0%, rgba(38,38,38,1) 100%);
+    background: -ms-linear-gradient(top, rgba(59,59,59,1) 0%, rgba(38,38,38,1) 100%);
+    background: linear-gradient(to bottom, rgba(59,59,59,1) 0%, rgba(38,38,38,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#262626', GradientType=0 );
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header form {
+    float: right;
+}
+    header form input {
+        padding: 5px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        font-size: 10px;
+    }
+    header img {
+        background-color: Transparent;
+        width: 46px;
+        height: 48px;
+    }
+    header * {
+        vertical-align: middle;
+        margin: 10px;
+    }
+
+.membersLogin {
+    color: white;
+    font-size: 20px;
+}
+button {
+    background-color: Transparent;
+    background-image: url('../images/btnGo.png');
+    width: 67px;
+    height: 39px;
+    border: none;
+}
+h1, article {
+    margin: 10px;
+}
+h1 {
+    color: #fed61e;
+    font-size: 25px;
+    font-weight: normal;
+}
+p {
+    margin: 0;
+    padding: 1px;
+    color: #a3a3a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+.producerLabel {
+    color: white;
+}
