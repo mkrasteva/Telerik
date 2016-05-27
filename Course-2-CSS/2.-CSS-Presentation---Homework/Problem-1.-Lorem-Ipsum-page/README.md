@@ -4,3 +4,9 @@
 	*	Color: `#0094ff`
 	
 ![picture1](https://cloud.githubusercontent.com/assets/3619393/7184115/1f7aadf2-e464-11e4-8a20-a169f5c5aa89.png)
+
+<hr/>
+
+Comments from peer-to-peer evaluation:
+
+<em>"Първа задача - коректно и добре направена."</em>
