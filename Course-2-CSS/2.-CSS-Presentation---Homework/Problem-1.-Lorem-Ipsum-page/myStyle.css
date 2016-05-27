@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Consolas, monaco, monospace;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family : Edwardian;
+	src : url('Edwardian Script ITC.ttf');
+}
+
+body
+{
+    font-family: 'Consolas';
+    Color: #0094ff
+}
+    body::first-line {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    body:first-letter {
+    font-family : Edwardian;
+    font-size : 45px;
+}
