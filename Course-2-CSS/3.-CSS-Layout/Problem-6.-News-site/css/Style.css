@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    width: 60%;
+    background-color: #1E3741;
+    border-radius: 4px;
+    margin: 1px;
+    padding: 5px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 620px;
+}
+nav {
+    padding: 2px 0;
+}
+    nav ul {
+        display: -webkit-box;
+    }
+    nav ul li {
+        list-style: none;
+        -webkit-flex: 1;  /* Safari 6.1+ */
+        -ms-flex: 1;  /* IE 10 */    
+        flex: 1;
+        text-align: center;
+        margin: 1px;
+        background-color: #4B5F67;
+        color: #88a1ad;
+        font-size: 12px;
+        padding: 8px 10px;
+        width: auto;
+        cursor: pointer;
+    }
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+        nav ul .currentChosen {
+            background-color: #1E3741;
+            color: white;
+        }
+    main {
+        margin: 10px 0;
+        display: flex;
+    }
+        main menu {
+            width: 37%;
+        }
+        main menu ul li {
+            list-style: none;
+            width: 100%;
+            border-bottom: 1px solid #364b55;
+            color: #91a2a2;
+            padding: 7px 10px;
+            font-size: 14px;
+        }
+            main menu ul li:last-child {
+                border-bottom: none;
+            }
+            main menu ul li:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        main menu ul .currentNews {
+            background-color: #00968c;
+            color: white;
+        }
+        main article {
+            position: relative;
+            padding: 0 14px;
+        }
